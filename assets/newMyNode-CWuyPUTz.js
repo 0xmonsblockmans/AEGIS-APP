@@ -3910,7 +3910,7 @@ const ut = (e) =>
                     c.jsx(ut, {}),
                     c.jsx("span", {
                       className: "stake-token__name",
-                      children: "GDM",
+                      children: "AGS",
                     }),
                   ],
                 }),
@@ -3933,7 +3933,7 @@ const ut = (e) =>
                       " ",
                       n ? (t ? ne(vt($e(t.balanceOf))) : "0") : "--",
                       " ",
-                      "GDM",
+                      "AGS",
                     ],
                   }),
                 ],
@@ -3974,7 +3974,7 @@ const ut = (e) =>
                 children: [
                   "Are you sure you want to stake ",
                   c.jsx(Ye, { children: s || "0" }),
-                  " GDM?",
+                  " AGS?",
                 ],
               }),
             }),
@@ -4004,7 +4004,7 @@ const ut = (e) =>
                     children: [
                       "You have successfully staked ",
                       c.jsx(Ye, { children: s || "0" }),
-                      " GDM.",
+                      " AGS.",
                     ],
                   }),
                   error: "Your transaction was unsuccessful. Please try again.",
@@ -8663,7 +8663,7 @@ const ko = (e) => {
                       : j.toString()) || "0"
                   ),
                 }),
-                " GDM?",
+                " AGS?",
               ],
             }),
           }),
@@ -8701,7 +8701,7 @@ const ko = (e) => {
                       ),
                     }),
                     " ",
-                    "GDM.",
+                    "AGS.",
                   ],
                 }),
                 error: "Your transaction was unsuccessful. Please try again.",
@@ -8885,7 +8885,7 @@ const Ao = () => {
                 children: [
                   "Are you sure you want to unstake ",
                   c.jsx(Ye, { children: ne(R) }),
-                  " GDM? Please note that your unstaked token will be locked for 60 days before being able to be withdrawn.",
+                  " AGS? Please note that your unstaked token will be locked for 60 days before being able to be withdrawn.",
                 ],
               }),
             }),
@@ -8916,7 +8916,7 @@ const Ao = () => {
                       "You have successfully unstaked",
                       " ",
                       c.jsx(Ye, { children: ne($e(C.current)) }),
-                      " GDM. Your token will be locked for 60 days.",
+                      " AGS. Your token will be locked for 60 days.",
                     ],
                   }),
                   error: "Your transaction was unsuccessful. Please try again.",
@@ -8938,7 +8938,7 @@ const Ao = () => {
             content: c.jsx(Ce, {
               children: c.jsx(ot, {
                 noMargin: !0,
-                children: "Are you sure you want to claim all GDM?",
+                children: "Are you sure you want to claim all AGS?",
               }),
             }),
             actions: c.jsxs(bt, {
@@ -8964,7 +8964,7 @@ const Ao = () => {
                 children: {
                   loading: null,
                   success: c.jsx(c.Fragment, {
-                    children: "You have successfully claimed all GDM.",
+                    children: "You have successfully claimed all AGS.",
                   }),
                   error: "Your transaction was unsuccessful. Please try again.",
                 }[l],
@@ -9052,7 +9052,7 @@ const Ao = () => {
       children: [
         c.jsx("div", {
           children: c.jsx(vr, {
-            text: "By locking GDM tokens in the pool, you are eligible to receive a share of the Node revenue as yield. Please note that unlocking GDM tokens is subject to a 60-day cooldown period.",
+            text: "By locking AGS tokens in the pool, you are eligible to receive a share of the Node revenue as yield. Please note that unlocking AGS tokens is subject to a 60-day cooldown period.",
           }),
         }),
         c.jsxs("div", {
@@ -9089,12 +9089,7 @@ const Ao = () => {
                     children: [
                       c.jsx("span", { children: r("TotalValueLocked") }),
                       c.jsxs("div", {
-                        children: [
-                          i == null
-                            ? void 0
-                            : i.total_value_locked.toLocaleString(),
-                          " $",
-                        ],
+                        children: 
                       }),
                     ],
                   }),
@@ -9145,7 +9140,7 @@ const Ao = () => {
                           c.jsx("h4", { children: "Node Pool" }),
                           c.jsx("p", {
                             children:
-                              "Stake GDM, Earn Node Rewards & help power the Guardium DePIN",
+                              "Stake AGS, Earn Node Rewards & help power the Guardium DePIN",
                           }),
                           c.jsxs("div", {
                             children: [
@@ -9199,7 +9194,7 @@ const Ao = () => {
                               c.jsx("h4", { children: "Any Amount" }),
                               c.jsx("p", {
                                 children:
-                                  "Join the Node Pool with any amount of GDM",
+                                  "Join the Node Pool with any amount of AGS",
                               }),
                             ],
                           }),
@@ -9235,7 +9230,7 @@ const Ao = () => {
                               }),
                               c.jsx("p", {
                                 children:
-                                  "Nodes earn GDM yield, grow your GDM portfolio even while you sleep",
+                                  "Nodes earn AGS yield, grow your AGS portfolio even while you sleep",
                               }),
                             ],
                           }),

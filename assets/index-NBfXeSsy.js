@@ -51857,7 +51857,7 @@ const W$ = {
     ObjectStorage: "Object Storage",
     WHITEPAPER: "WHITEPAPER",
     Documentation: "Documentation",
-    TotalValueLocked: "Total Value Locked",
+    TotalValueLocked: "Total Value Locked (AGS)",
     TotalCPU: "Total CPU",
     BandwidthCapacity: "Total Bandwidth capacity",
     TotalUsers: "Total users",
